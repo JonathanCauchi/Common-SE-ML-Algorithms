@@ -1,6 +1,6 @@
 # Common-SE-ML-Algorithms
 
-ML Algortihms:
+ML Algorithms:
 - Linear Regression
 - Logistic Regression
 - Naive Bayes
