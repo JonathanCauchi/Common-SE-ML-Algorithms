@@ -19,3 +19,4 @@ Data Structures:
 - Queues
 - Binary Trees
 - Linked Lists
+- Skip Lists
