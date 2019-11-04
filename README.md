@@ -1,5 +1,3 @@
-# Common-SE-ML-Algorithms
-
 ML Algorithms:
 - Linear Regression
 - Logistic Regression
