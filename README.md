@@ -4,6 +4,8 @@ ML Algorithms:
 - Naive Bayes
 - KNN
 - K-Means
+- Decision Trees
+- Random Forests
 - Support Vector Machine
 - ANN
 
