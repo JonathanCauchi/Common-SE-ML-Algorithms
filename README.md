@@ -17,6 +17,6 @@ Sorting Algorithms:
 
 Data Structures:
 - Queues
-- Binary Trees
-- Linked Lists
-- Skip Lists
+- Binary Tree
+- Linked List
+- Skip List
