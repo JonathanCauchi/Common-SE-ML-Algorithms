@@ -20,3 +20,6 @@ Data Structures:
 - Binary Tree
 - Linked List
 - Skip List
+- BFS, DFS
+
+
