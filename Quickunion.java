@@ -38,7 +38,7 @@ public class Quickunion
         id[i] = j;
     }
     
-//best case = O(n), worst case = O(nxn)
+// worst case = O(n)
 
 
 }
