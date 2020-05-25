@@ -25,6 +25,6 @@ for(int k=0; k<X; k++)
 printf("\n");
 }
 	
-\\TO DO TRANSPOSE JUST SHIFT LOOPS
+//TO DO TRANSPOSE JUST SHIFT LOOPS
 
 }
