@@ -7,9 +7,9 @@ int main()
 char sentence[100];
 printf("Enter sentence (small letters, no numbers):\n");
 fgets(sentence,100,stdin);
-int size = strlen(sentence) - 1;
+int size = strlen(sentence) ;
 int wordcount=0, spacecount=0, vowelcount=0, consonantcount=0;
-for(int i=0; i<size; i++)
+for(int i=0; i<=size; i++)
 {
 	if(sentence[i] == ' ')
 	spacecount++;
