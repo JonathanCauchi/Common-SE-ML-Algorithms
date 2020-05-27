@@ -1,7 +1,6 @@
 
 #include <stdio.h>
  
-//function to calculate length of the string using recursion
 int stringLength(char *str)
 {
     static int length=0;
