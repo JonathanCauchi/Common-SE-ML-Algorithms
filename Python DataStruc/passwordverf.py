@@ -11,36 +11,31 @@ def main():
 def str_size(str):
 	if(len(str) > 5 and len(str) < 13):
 		return True
-	else:
-		return False
+	return False
 
 def letter_low(str):
 	for i in str:
 		if(i >= "a" and i <= "z"):
 			return True
-		else:
-			return False 
+		return False 
 
 def letter_upper(str):
 	for i in str:
 		if(i >= "A" and i <= "Z"):
 			return True
-		else:
-			return False 
+		return False 
 
 
 def num(str):
 	for i in str:
 		if(i >= "0" and i <= "9"):
 			return True
-		else:
-			return False 
+		return False 
 
 def spechar(str):
 	for i in str:
 		if(i=='$' and i=='#' and i=='@'):
 			return True
-		else:
-			return False
+		return False
 
 main()
