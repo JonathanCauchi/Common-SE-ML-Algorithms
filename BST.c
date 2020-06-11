@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h> 
 
 //C is a beautiful language and Java is a fuckin mess
 
