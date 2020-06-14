@@ -1,3 +1,4 @@
+-- MYSQL SYNTAX
 -- 595. Big Countries
 
 SELECT w.name, w.population, w.area
