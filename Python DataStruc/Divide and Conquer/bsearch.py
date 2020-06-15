@@ -8,7 +8,7 @@ def bsearch(arr,len, value):
 		mid = (index0 + indexend)//2 #integer point div
 
 		if(arr[mid] == value):
-			print("Found")
+			print("Value found at index:", arr[mid])
 		if(value > arr[mid]):
 			index0 = mid + 1
 		else:
