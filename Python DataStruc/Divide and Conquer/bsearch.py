@@ -15,6 +15,7 @@ def bsearch(arr,len, value):
 			indexend = mid - 1
 
 	if index0 > indexend:
+		print("Traversed all elements in array\n")
 		return None
 
 arr = [23,43,56,66,78,98]
