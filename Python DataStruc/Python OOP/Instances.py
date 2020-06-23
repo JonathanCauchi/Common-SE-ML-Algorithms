@@ -24,11 +24,10 @@ class Employee:
     
 emp1 = Employee('Jonathan','Cauchi', 50000)
 
-emp2 = Employee('Jonathan','Cauchi', 50000)
+emp2 = Employee('Alpha','Vangelis', 60000)
 
-emp3 = Employee('Jonathan','Cauchi', 50000)
+emp3 = Employee('Marcus','Maximus', 70000)
 
-emp4 = Employee('Jonathan','Cauchi', 50000)
 emp1.dispfullname()
 emp2.dispfullname()
 emp3.dispfullname()
