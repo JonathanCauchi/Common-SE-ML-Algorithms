@@ -1,6 +1,4 @@
 from datetime import date
-import itertools
-
 
 class Employee:
     
@@ -24,10 +22,7 @@ class Employee:
     
 
     
-        
-
 emp1 = Employee('Jonathan','Cauchi', 50000)
-
 
 emp2 = Employee('Jonathan','Cauchi', 50000)
 
