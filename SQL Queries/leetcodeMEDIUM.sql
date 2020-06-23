@@ -23,3 +23,18 @@ SET N = N-1;
         LIMIT 1 offset N
      );
 END
+
+-- 180. Consecutive Numbers
+
+
+SELECT DISTINCT(L1.Num) AS ConsecutiveNums
+FROM 
+Logs L1,
+Logs L2,
+Logs L3
+WHERE
+L1.Id = L2.Id + 1
+and L2.Id = L3.Id + 1
+and L1.Num = L2.Num
+and L2.Num = L3.Num
+
