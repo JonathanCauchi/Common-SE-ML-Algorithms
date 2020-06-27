@@ -26,7 +26,7 @@ if(option == 1)
 {
 	state = waiting;
 	printf("State is waiting\n");
-	printf("%d\n",option);
+	printf("%d\n",state);
 }
 if(option == 2)
 {
