@@ -20,6 +20,8 @@ int option;
 printf("What is your current state?\n");
 printf("1-Waiting, 2-Being served, 3-Exiting\n");
 scanf("%d",&option);
+	
+//Ideally, use switch case statements given they're more efficient (better optimization during compiling)
 if(option == 1)
 {
 	state = waiting;
