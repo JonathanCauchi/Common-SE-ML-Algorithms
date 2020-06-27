@@ -28,6 +28,7 @@ class LinkedList:
 		find_last = self.headval
 		while(find_last.nextvalue):
 			find_last = find_last.nextvalue
+		find_last.nextvalue = new_node
 
 	def remove(self, value):
 
