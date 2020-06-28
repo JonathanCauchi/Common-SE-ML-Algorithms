@@ -33,6 +33,7 @@ sprintf(str,"%d",result);
 printf("Factorial: %d\n", result);
 size_t size = sizeof(str)/sizeof(char);
 int total = 0;
+	//doesnt work fix it!
 for( i = 0; i < size; i++)
 {
 	printf("%c",str[i]);
