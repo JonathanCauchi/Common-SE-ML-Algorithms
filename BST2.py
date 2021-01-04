@@ -1,4 +1,4 @@
-
+#not completed yet, just need to add more functionality and add a cool interface somehow
 class Node:
     def __init__(self, value, parent):
         self.value = value
