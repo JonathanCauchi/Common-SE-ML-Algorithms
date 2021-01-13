@@ -13,7 +13,7 @@ class Hashtable:
         while(self.keys[index] is not None):
             if(self.keys[index] == key):
                 return self.values[index]
-        return None #no value in this bucker
+        return None #no value in this bucket
     
     def insert(self, key, value): 
         
