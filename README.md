@@ -8,12 +8,14 @@ ML Algorithms:
 - Random Forests
 - Support Vector Machine
 - ANN
+...., etc
 
 Sorting Algorithms:
 - Quick Sort
 - Bubble Sort
 - Merge Sort
 - Insertion Sort
+...., etc
 
 Data Structures & Algos:
 - Queues
@@ -21,9 +23,10 @@ Data Structures & Algos:
 - Linked List
 - Skip List
 - BFS, DFS
+...., etc
 
 DSP & Multimedia techniques:
 - FFT
 - Wavelets
 - Huffman
-
+...., etc
