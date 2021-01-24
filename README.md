@@ -15,13 +15,15 @@ Sorting Algorithms:
 - Merge Sort
 - Insertion Sort
 
-Data Structures:
+Data Structures & Algos:
 - Queues
 - Binary Tree
 - Linked List
 - Skip List
 - BFS, DFS
 
-and more...
-
+DSP & Multimedia techniques:
+- FFT
+- Wavelets
+- Huffman
 
