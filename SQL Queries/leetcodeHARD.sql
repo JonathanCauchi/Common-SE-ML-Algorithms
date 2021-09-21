@@ -28,3 +28,13 @@ SELECT T.Request_at as 'Day', ROUND(SUM(CASE WHEN T.Status LIKE 'cancelled%' THE
 SELECT *
 FROM CTE
 
+-- 601. Human Traffic of Stadium --
+
+SELECT DISTINCT s1.*
+FROM Stadium s1 JOIN Stadium s2 JOIN Stadium s3
+ON s1.id = s2.id-1 AND s1.id = s3.id-2 OR
+s1.id = s2.id-1 AND s1.id = s3.id+1 OR
+s1.id = s2.id+1 AND s1.id = s3.id+2 
+WHERE s1.people >= 100 and s2.people >= 100 and s3.people >= 100
+GROUP BY id
+ORDER BY id ASC
