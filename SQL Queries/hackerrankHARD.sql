@@ -1,3 +1,5 @@
+# Couldnt pass tests for some unapparent reason, fix it later
+
 SELECT A.contest_id, A.hacker_id, A.name, SUM(total_submissions), SUM(total_accepted_submissions), SUM(total_views), SUM(total_unique_views)
 FROM Contests as A
 LEFT JOIN Colleges as B
