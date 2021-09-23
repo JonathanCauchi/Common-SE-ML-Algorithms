@@ -21,7 +21,7 @@ LEFT JOIN (SELECT challenge_id,
 ON (A.contest_id = B.contest_id)
 AND (B.college_id = C.college_id) 
 AND (C.challenge_id = D.challenge_id)
-AND (D.challenge_id = E.challenge_id)
+AND (C.challenge_id = E.challenge_id)
 GROUP BY 
         A.contest_id, 
         A.hacker_id, 
