@@ -138,7 +138,7 @@ class PlusPuzzle: #extend here
           sys.exit()
 
 
-start = np.array([['a',0,'a'],[0,0,0],['a',0,'a']]) #a is some arbitrary number given to the columns
+start = np.array([['a',0,'a'],[0,0,0],['a',0,'a']]) #a is some arbitrary value given to the columns
 list = [1,2,3,4,5]
 #goal = np.array([['a',2,'a'],[1,3,5],['a',4,'a']]) 
 obj = PlusPuzzle(start,list, None)
