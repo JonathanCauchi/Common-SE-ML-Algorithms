@@ -1,7 +1,6 @@
 import os
 import numpy as np
 import sys
-from helpers import get_diagonals, check_consecutive
 
 class ConnectZ:
     
