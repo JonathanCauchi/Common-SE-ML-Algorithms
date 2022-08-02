@@ -88,8 +88,8 @@ class ConnectZ:
         check_1stline(first_line)
         if self.status != "8":
             x,y,z = int(first_line[0]),int(first_line[1]),int(first_line[2])
-            if int(z) < 2:
-                raise ValueError("Z parameter set at {}. Z must be at least 2".format(z))
+            if int(z) < 3:
+                raise ValueError("Z parameter set at {}. Z must be at least 3".format(z))
             check_solvability(x,y,z)
             check_moves(move_details)
             check_length_sequence(x, y, move_details)
