@@ -16,31 +16,16 @@ import sys
 
 def minimumLoss(price):
     # Write your code here
-    if len(price) >= 2 and len(price) <= 2 * 10**5:
-        loss_dct = {}
-        
-        for i in range(0, len(price)-1):
-            purchase = price[i]
-            if purchase >= 1 and purchase <= 10**16:
-                min_loss = None
-                if i not in loss_dct:
-                    loss_dct[i] = None
-                for j in range(i+1, len(price)):
-                    compare = price[j]
-                    if compare >= purchase:
-                        continue
-                    else:
-                        value = purchase - compare
-                        if min_loss and value < min_loss:
-                            min_loss = value
-                        if min_loss is None:
-                            min_loss = value
-                    loss_dct[i] = min_loss
-                    
-        result = loss_dct.values()
-        result = [value for value in result if value is not None]
-        
-        return min(result)
+    min_value = sys.maxsize
+    prices = [(price[i], i) for i in range(len(price))]
+    prices = sorted(prices, reverse=True)
+    
+    for i in range(len(prices)-1):
+        if prices[i][0] - prices[i+1][0] < min_value and prices[i][1] < prices[i+1][1]:
+            min_value = prices[i][0] - prices[i+1][0]
+            
+    return min_value
+    
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
